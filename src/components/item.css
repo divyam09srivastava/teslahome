@@ -6,6 +6,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 
@@ -29,6 +30,10 @@
 .item__textDesc{
     font-weight: 200;
     font-size: 14px;
+}
+
+.item__buttons{
+    display: flex;
 }
 
 .item__lowerThird{

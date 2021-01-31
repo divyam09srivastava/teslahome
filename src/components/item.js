@@ -24,13 +24,9 @@ const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink,rightBtnTxt, 
                             <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink} />
                         
                         )}
-                        {first &&(
-                            <div className="item__expand">
-                                <ExpandMoreIcon/>
-                            </div>
-                        )
+                         
 
-                        }
+                        
                     </div>
                 </div>
             </div>
